@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: block;
+    top: 0;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+   
+#header {
+    position: absolute;
+    
+  
+}
+
+#header > .header-content {
+    float: left;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-20px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#header > .header-content > .img-1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    width: 100%;
+    height: auto;
+}
+
+#header > .header-content > .img-1 img {
+    width: 100%;
+    height: auto;
+}
+
+#header > .header-content > .img-1 > .ch {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+    background-color: #f8f8f8;
+    opacity: 0.6;
+}
+
+#header > .header-content > .logo {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    z-index: 2;
+}
+
+#header > .header-content > .logo > .t-logo {
+    color: #000;
+    fill: currentColor;
+    stroke-width: 0;
+    vertical-align: middle;
+    right: 0;
+}
+
+/*  Nav */
+
+#header > .header-content > .nav-menu {
+    width: 100%;
+    height: 100%;
+     position: fixed;
+    top: 10px;
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+
+}
+
+#header > .header-content > .nav-menu > .list-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#header > .header-content > .nav-menu > .list-wrapper ol {
+    display: flex;
+    justify-content: space-around;
+}
+
+#header > .header-content > .nav-menu > .list-wrapper ol li {
+    padding-right: 25px;
+}
+
+#header > .header-content > .nav-menu > .list-wrapper ol li a {
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #000;
+}
+
+/*  Nav 1 */
+#header > .header-content > .nav-1-menu {
+    width: 100%;
+    height: 100%;
+     position: fixed;
+    top: 10px;
+    right: 70px;
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#header > .header-content > .nav-1-menu > .list-1-wrapper  {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#header > .header-content > .nav-1-menu > .list-1-wrapper  ol  {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header > .header-content > .nav-1-menu > .list-1-wrapper ol li {
+    padding-left: 25px;
+}
+
+#header > .header-content > .nav-1-menu > .list-1-wrapper ol li a {
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #000;
+}
+
+/* Nav button 2 */
+
+#header > .header-content > .nav-2-menu {
+     position: fixed;
+    right: 15px;
+    top: 0;
+    cursor: pointer;
+    outline: 0;
+    display: block;
+    z-index: 2;
+}
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown {
+    position: relative;
+    display: inline-block;
+    outline: 0;
+}
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown > .nav-2-button {
+    padding: 10px;
+    color: transparent;
+    background-color: transparent;
+    border: 2px solid transparent;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown > .nav-2-button > .nav-2-btn {
+    color: #000;
+    fill: currentColor;
+    stroke-width: 0;
+    vertical-align: middle;
+}
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown > .nav-2-button:hover {
+    background-color: transparent;
+    border: 2px solid transparent;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    padding: 10px;
+}
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown > .nav-2-button:focus {
+    background-color: transparent;
+    outline: 0;
+}
+
+/* Nav button 2d */
+
+#header > .header-content > .nav-2d-menu {
+    position: fixed;
+    right: 15px;
+    top: 0;
+    cursor: pointer;
+    outline: 0;
+    z-index: 2;
+}
+
+#header > .header-content > .nav-2d-menu > .nav-2d-button-dropdown {
+    position: relative;
+    display: inline-block;
+    outline: 0;
+}
+
+#header > .header-content > .nav-2d-menu > .nav-2d-button-dropdown > .nav-2d-button {
+    padding: 10px;
+    color: transparent;
+    background-color: transparent;
+    border: 2px solid transparent;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+#header > .header-content > .nav-2d-menu > .nav-2-button-dropdown > .nav-2d-button > .nav-2d-btn {
+    color: #000;
+    fill: currentColor;
+    stroke-width: 0;
+    vertical-align: middle;
+}
+
+#header > .header-content > .nav-2d-menu > .nav-2d-button-dropdown > .nav-2d-button:hover {
+    background-color: transparent;
+    border: 2px solid transparent;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    padding: 10px;
+}
+
+#header > .header-content > .nav-2d-menu > .nav-2d-button-dropdown > .nav-2d-button:focus {
+    background-color: transparent;
+    outline: 0;
+}
+
+/*  content */
+
+#header > .content {
+    float: left;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#header > .content > .img-2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    width: 100%;
+}
+
+#header > .content > .img-2 img {
+    width: 100%;
+}
+
+#header > .header-content > .model-y {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+    text-align: center;
+    transform: translateY(-20px);
+}
+
+
+#header > .header-content > .model-y h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    opacity: 70%;
+    font-size: 35px;
+}
+
+#header > .header-content > .text {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    transform: translateY(-20px);
+}
+
+#header > .header-content > .text p {
+    color: #000;
+    opacity: 75%;
+    font-size: 15px;
+}
+
+#header > .header-content > .text span {
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+#header > .header-content > .text span a {
+    color: #000;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+
+#header > .header-content > .buttons {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-20px);
+
+}
+
+#header > .header-content > .buttons > .btn-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: -95px;
+}
+
+#header > .header-content > .buttons > .btn-wrapper > .btn-1 {
+    width: 250px;
+    height: 40px;
+    border: 2px transparent;
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
+    margin-right: 10px;
+    opacity: 70%;
+    text-transform: uppercase;
+}
+
+#header > .header-content > .buttons > .btn-wrapper > .btn-2 {
+    width: 250px;
+    height: 40px;
+    border: 2px transparent;
+    border-radius: 30px;
+    background-color: #fff;
+    margin-left: 10px;
+    opacity: 70%;
+    text-transform: uppercase;
+}
+
+#header > .header-content > .arrow {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-20px);
+    top: 0;
+    
+}
+
+#header > .header-content > .arrow > .arrow-wrapper {
+    position: absolute;
+    top: -50px;
+    animation-name: arrow;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    -webkit-transition-duration: 0.5s; 
+    animation-direction: alternate;  
+    transition-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes arrow {
+    0%   {top:-50px;}
+    100%  {top:-45px;}
+  }
+
+#header > .header-content > .arrow > .arrow-wrapper svg {
+    width: 30px;
+    height: 30px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #f8f8f8;
+    position: relative;
+    top: -20px;
+}
+
+.footer ol {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer ol li a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 10px;
+    opacity: 80%;
+    font-size: 15px;
+}
+
+#header > .header-content > .buttons > .btn-wrapper > .btn-1-b {
+    width: 250px;
+    height: 40px;
+    border: 2px transparent;
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
+    margin-right: 10px;
+    opacity: 85%;
+    text-transform: uppercase;
+}

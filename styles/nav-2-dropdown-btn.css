@@ -1,0 +1,144 @@
+/*  Nav 2 - mob */
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown > .nav-2-button > .nav-2-settings {
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    background-color: #ffffff;
+    -webkit-box-shadow: 1px -1px 48px -9px rgba(207,205,207,0.68);
+    -moz-box-shadow: 1px -1px 48px -9px rgba(207,205,207,0.68);
+    box-shadow: 1px -1px 48px -9px rgba(207,205,207,0.68);
+    min-width: 250px;
+    border: 0;
+    padding: 15px;
+    text-align: left;
+    z-index: 2;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    float: right;
+    right: -15px;
+    top: -17px;
+}
+
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown:active > .nav-2-button > .nav-2-settings {
+    display: block;
+}
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown:hover > .nav-2-button > .nav-2-settings {
+    display: block;
+}
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown > .nav-2-button > .nav-2-settings > .x-2-btn {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    float: revert;
+    right: 25px;
+    top: 20px;
+}
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown > 
+.nav-2-button > .nav-2-settings >  .nav-2-scrollbar > .list-2-wrapper ol li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+    line-height: 3;
+}
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown > 
+.nav-2-button > .nav-2-settings >  .nav-2-scrollbar > .list-2-wrapper span  {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    float: left;
+    top: -33px;
+    left: 45px;
+    text-align: left;
+}
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown > 
+.nav-2-button > .nav-2-settings >  .nav-2-scrollbar > .list-2-wrapper hr {
+    opacity: 50%;
+}
+
+#header > .header-content > .nav-2-menu > .nav-2-button-dropdown > 
+.nav-2-button > .nav-2-settings >  .nav-2-scrollbar > .list-2-wrapper > .m a {
+    display: none;
+}
+
+/*  Nav 2d - desktop */
+
+
+#header > .header-content > .nav-2d-menu > .nav-2d-button-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#header > .header-content > .nav-2d-menu > .nav-2d-button-dropdown > .nav-2d-button > .nav-2d-settings {
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 100vh;
+    background-color: #ffffff;
+    -webkit-box-shadow: 1px -1px 48px -9px rgba(207,205,207,0.68);
+    -moz-box-shadow: 1px -1px 48px -9px rgba(207,205,207,0.68);
+    box-shadow: 1px -1px 48px -9px rgba(207,205,207,0.68);
+    min-width: 250px;
+    border: 0;
+    padding: 15px;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+    float: right;
+    right: -15px;
+    top: -17px;
+}
+ 
+#header > .header-content > .nav-2d-menu > .nav-2d-button-dropdown:active > .nav-2d-button > .nav-2d-settings {
+    display: block;
+}
+
+#header > .header-content > .nav-2d-menu > .nav-2d-button-dropdown:hover > .nav-2d-button > .nav-2d-settings {
+    display: block;
+}
+
+#header > .header-content > .nav-2d-menu > .nav-2d-button-dropdown > .nav-2d-button > .nav-2d-settings > .x-2d-btn {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    float: revert;
+    right: 25px;
+    top: 20px;
+}
+
+#header > .header-content > .nav-2d-menu > .nav-2d-button-dropdown > 
+.nav-2d-button > .nav-2d-settings >  .nav-2d-scrollbar > .list-2d-wrapper ol li a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #000;
+    line-height: 3;
+}
+
+#header > .header-content > .nav-2d-menu > .nav-2d-button-dropdown > 
+.nav-2d-button > .nav-2d-settings >  .nav-2d-scrollbar > .list-2d-wrapper span  {
+    width: 10px;
+    height: 10px;
+    position: relative;
+    float: left;
+    top: -33px;
+    left: 45px;
+    text-align: left;
+}
+
+#header > .header-content > .nav-2d-menu > .nav-2d-button-dropdown > 
+.nav-2d-button > .nav-2d-settings >  .nav-2d-scrollbar > .list-2d-wrapper hr {
+    opacity: 50%;
+}
