@@ -376,13 +376,14 @@ body {
 }
 
 .footer {
+    position: sticky;
     width: 100%;
     height: 30px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background-color: #f8f8f8;
     position: relative;
+    bottom: 0;
     top: -20px;
 }
 
@@ -390,7 +391,6 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #f8f8f8;
 }
 
 .footer ol li a {
@@ -399,7 +399,6 @@ body {
     padding: 0 10px;
     opacity: 80%;
     font-size: 15px;
-    background-color: #f8f8f8;
 }
 
 #header > .header-content > .buttons > .btn-wrapper > .btn-1-b {
